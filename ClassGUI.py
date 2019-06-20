@@ -12,7 +12,7 @@ def main():
     #Creates and gives attributes to the window
     root = tk.Tk()
     root.title("My GUI")
-    root.geometry("1000x1000")
+    root.geometry("750x550")
     
     #Creates instance of CameraFeed class connected to camera 0
     camera = CameraFeed(0)
