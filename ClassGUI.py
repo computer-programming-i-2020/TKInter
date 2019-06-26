@@ -7,8 +7,6 @@ Created on Jun 20, 2019
 import tkinter as tk            #Used for the GUI
 from tkinter import filedialog as fd
 import cv2 as cv                #Used to collect and edit camera data
-import datetime
-import numpy
 from PIL import Image, ImageTk  #Used to convert image types between TKInter and OpenCV
 
 def main():
